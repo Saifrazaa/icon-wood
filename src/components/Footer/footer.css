@@ -1,0 +1,11 @@
+.address{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.paddingTopBottom{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+

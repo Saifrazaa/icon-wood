@@ -1,0 +1,95 @@
+body {
+  font-family: "gilroyregular";
+  color: #1d1d1f;
+}
+@font-face {
+  font-family: "gilroyregular";
+  src: url("./assets/fonts/gilroy-regular-webfont.eot");
+  src: url("./assets/fonts/gilroy-regular-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/gilroy-regular-webfont.woff2") format("woff2"),
+    url("./assets/fonts/gilroy-regular-webfont.woff") format("woff"),
+    url("./assets/fonts/gilroy-regular-webfont.svg#gilroyregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "gilroysemibold";
+  src: url("./assets/fonts/gilroy-semibold-webfont.eot");
+  src: url("./assets/fonts/gilroy-semibold-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/gilroy-semibold-webfont.woff2") format("woff2"),
+    url("./assets/fonts/gilroy-semibold-webfont.woff") format("woff"),
+    url("./assets/fonts/gilroy-semibold-webfont.svg#gilroysemibold")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "gilroybold";
+  src: url("./assets/fonts/gilroy-bold-webfont.eot");
+  src: url("./assets/fonts/gilroy-bold-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/gilroy-bold-webfont.woff2") format("woff2"),
+    url("./assets/fonts/gilroy-bold-webfont.woff") format("woff"),
+    url("./assets/fonts/gilroy-bold-webfont.svg#gilroybold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "gilroyheavy";
+  src: url("./assets/fonts/gilroy-heavy-webfont.eot");
+  src: url("./assets/fonts/gilroy-heavy-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/gilroy-heavy-webfont.woff2") format("woff2"),
+    url("./assets/fonts/gilroy-heavy-webfont.woff") format("woff"),
+    url("./assets/fonts/gilroy-heavy-webfont.svg#gilroyheavy") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "gilroylight";
+  src: url("./assets/fonts/gilroy-light-webfont.eot");
+  src: url("./assets/fonts/gilroy-light-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/gilroy-light-webfont.woff2") format("woff2"),
+    url("./assets/fonts/gilroy-light-webfont.woff") format("woff"),
+    url("./assets/fonts/gilroy-light-webfont.svg#gilroylight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "gilroymedium";
+  src: url("./assets/fonts/gilroy-medium-webfont.eot");
+  src: url("./assets/fonts/gilroy-medium-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/gilroy-medium-webfont.woff2") format("woff2"),
+    url("./assets/fonts/gilroy-medium-webfont.woff") format("woff"),
+    url("./assets/fonts/gilroy-medium-webfont.svg#gilroymedium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@media only screen and (min-width: 1px) and (max-width: 1023px) {
+  .navbar__app {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
+
+  .mobile__navbar {
+    overflow: hidden !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 3000px) {
+  .mobile__navbar {
+    display: none;
+  }
+}
